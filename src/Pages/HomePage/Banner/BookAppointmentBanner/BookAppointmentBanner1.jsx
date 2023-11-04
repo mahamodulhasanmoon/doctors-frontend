@@ -37,6 +37,7 @@ const BookAppointmentBanner1 = () => {
             </div>
           </div>
         </div>
+        
 <AppoinmentForm/>
       </div>
     </div>

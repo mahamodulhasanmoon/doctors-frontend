@@ -2,7 +2,7 @@ import arrow from "../../../assets/banner/arrow.svg";
 
 const Faqs = () => {
   return (
-    <div className="  lg:w-[884px] mt-48 rounded-lg mx-5  mb-12 lg:mx-auto  max-w-screen-2xl">
+    <div className="  lg:w-[884px] mt-10 rounded-lg mx-5  mb-12 lg:mx-auto  max-w-screen-2xl">
       <div className="">
         <h1 className="text-center text-black  text-3xl lg:text-5xl font-semibold">
           FAQs

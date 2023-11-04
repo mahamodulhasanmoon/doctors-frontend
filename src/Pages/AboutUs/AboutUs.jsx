@@ -5,8 +5,8 @@ import Faqs from "../HomePage/Faqs/Faqs";
 const AboutUs = () => {
   return (
     <div>
-      <section className="my-14" >
-        <div className="mx-28  sm:px-6 lg:px-8">
+      <section className="container mx-auto" >
+        <div className="">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
             <div className="max-w-lg">
               <h2 className="text-[3.375rem] mb-6 font-bold text-gray-900 sm:text-4xl">
@@ -15,7 +15,6 @@ const AboutUs = () => {
               <span
                 className=" w-full text-gray-600 text-md"
                 style={{
-                  whiteSpace: "nowrap",
                   overflow: "hidden",
                   textOverflow: "ellipsis",
                 }}
@@ -26,7 +25,7 @@ const AboutUs = () => {
                 chiropractic care.
               </span>
 
-              <div className="mt-8">
+              <div className="">
                 <a
                   href="#"
                   className="text-blue-500 hover:text-blue-600 font-medium"
@@ -39,7 +38,7 @@ const AboutUs = () => {
               <img
                 src={massageImage}
                 alt="About Us Image"
-                className="object-cover  rounded-lg shadow-md"
+                className="object-cover  w-full rounded-lg shadow-md"
               />
            
           </div>

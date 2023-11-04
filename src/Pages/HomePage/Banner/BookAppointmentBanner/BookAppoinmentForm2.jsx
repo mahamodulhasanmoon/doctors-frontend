@@ -40,16 +40,9 @@ export default  function AppoinmentForm2() {
   
     return (
 <>
-<div className="flex items-center justify-center mx-auto  lg:w-[45rem] shadow-xl py-[4.6rem]">
+<div className="pb-6  shadow-xl my-8">
       <div className="bg-white">
-        <div className="my-8 justify-start items-center">
-          <h1 className="text-center text-[#262626] text-2xl font-semibold font-['Open Sans'] capitalize leading-10">
-            Book your appointment
-          </h1>
-          <p className="text-center mb-2 text-gray-500 text-lg font-normal font-['Open Sans'] leading-7">
-            We will confirm your appointment within 2 hours
-          </p>
-        </div>
+
         <fieldset className="rounded-md">
           <h1 className="text-lg text-black pb-4 mt-4 font-semibold">
             Book Appointment

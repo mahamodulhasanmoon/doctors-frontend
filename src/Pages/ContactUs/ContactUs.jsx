@@ -24,14 +24,15 @@ const ContactUs = () => {
 
       {/* form start */}
 
-      <div className="grid grid-cols-2 my-12 gap-8 mx-36   ">
+<div className="container mx-auto">
+<div className="grid grid-cols-2 my-12 gap-8 mx-36   ">
         {/* Left Card: Book Appointment */}
 
 <AppoinmentForm2/>
 
         {/* Right Card: Date List */}
-        <div className="mt-24 pl-36  ">
-          <div className="py-12 h-[30rem] px-10  rounded-lg flex-col justify-center items-center inline-flex">
+        <div className="mt-10">
+          <div className="py-12 rounded-lg flex-col justify-center items-center inline-flex">
             <div className="w-[397px] h-[314px] relative">
               <div className="w-[363px] h-[129px] left-0 top-[185px] absolute flex-col justify-start items-start gap-8 inline-flex">
                 <div className="text-neutral-800 text-2xl font-semibold font-['Open Sans'] capitalize leading-[43.20px]">
@@ -67,6 +68,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
+</div>
       <Faqs></Faqs>
     </div>
   );
