@@ -23,8 +23,9 @@ const HomePage = () => {
             <BookAppointmentBanner1 />
             <AchievementBanner />
             <TreatmentBanner />
-            <StepServiceBanner />
+           
             <ConditionBanner />
+            <StepServiceBanner />
             <ReviewBanner />
             <DemoBanner />
             <MeetDr></MeetDr>
