@@ -1,4 +1,5 @@
 
+import MeetDr from "../MeetDr/MeetDr";
 import AchievementBanner from "./Banner/AchievementBanner/AchievementBanner";
 import AddBanner from "./Banner/AddBanner/AddBanner";
 import Banner from "./Banner/Banner";
@@ -26,6 +27,7 @@ const HomePage = () => {
             <ConditionBanner />
             <ReviewBanner />
             <DemoBanner />
+            <MeetDr></MeetDr>
             <Faqs></Faqs>
            
         </div>

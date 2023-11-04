@@ -1,4 +1,4 @@
-import demoBanner from "../../../../assets/banner/demo1.png";
+import demoBanner from "../../../../assets/banner/DSC_8695 1.png";
 import demo2 from "../../../../assets/banner/demo2.svg";
 import demo3 from "../../../../assets/banner/demo3.svg";
 import demo4 from "../../../../assets/banner/demo4.svg";
@@ -9,7 +9,7 @@ const DemoBanner = () => {
       <div className=" mx-6 lg:mx-18 rounded-lg  ">
         <div className="">
           <h1 className="font-sans text-4xl text-neutral-800 lg:text-5xl text-center md:text-[54px] font-semibold">
-            Guarantee Feel Free from <br></br> Pain Again
+          Guarantee a life free from pain <br></br> once more with our expert <br></br> chiropractic services.  
           </h1>
           <p className="text-center mt-3 font-normal  text-[#464D59] text-lg">
             Embrace a Life Free from Pain Once More. Our expert chiropractic

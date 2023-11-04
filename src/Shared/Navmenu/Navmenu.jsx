@@ -2,19 +2,14 @@ import { MdOutlineCall } from "react-icons/md";
 import logo from "../../../public/logo.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import {  IoIosArrowForward } from "react-icons/io";
-
+import { IoIosArrowForward } from "react-icons/io";
 
 const Navmenu = () => {
-
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
-
- 
-
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -26,10 +21,7 @@ const Navmenu = () => {
         <img className="w-32 h-14" src={logo} alt="Logo" />
 
         {/* Mobile Menu Icon */}
-        <div
-          className="lg:hidden cursor-pointer"
-          onClick={toggleMobileMenu}
-        >
+        <div className="lg:hidden cursor-pointer" onClick={toggleMobileMenu}>
           <svg
             className="w-6 h-6 text-white"
             fill="none"
@@ -45,63 +37,83 @@ const Navmenu = () => {
             ></path>
           </svg>
         </div>
-        
+
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center gap-8">
         <Link to='/'  className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">Home</Link>
           <div className="flex items-center gap-1">
-          <div className="relative">
-       
-
-      <div className="relative"> {/* This relative position is the anchor for the absolute positioning of the dropdown */}
-        {/* Services link which acts as a dropdown trigger */}
-        <div onClick={toggleDropdown} className="flex items-center cursor-pointer">
-          <span className="text-white text-lg font-normal font-['Open_Sans'] hover:underline">Services</span>
-          {/* Dropdown Icon */}
-          <div className="w-4 h-4 ml-1">
-            {/* SVG icon here */}
-          </div>
-        </div>
-
-        {/* Dropdown Content */}
-        {isDropdownOpen && (
-         <ul className="absolute left-0 mt-2 w-60 bg-white shadow-lg rounded-md overflow-hidden z-10">
-         <li>
-           <Link to='/care' className="flex items-center justify-between px-2 py-2 text-sm text-gray-700 hover:text-cyan-700 hover:font-bold">
-             <span>Chiropractic care</span>
-             <span className="flex items-center">
-  <IoIosArrowForward className="mr-[-6px]"/>
-  <IoIosArrowForward/>
-</span>
-           </Link>
-         </li>
-         <li>
-           <Link to='/spinal' className="flex items-center justify-between px-2 py-2 text-sm text-gray-700 hover:text-cyan-700 hover:font-bold">
-             <span>Spinal Decompression</span>
-             <span className="flex items-center">
-  <IoIosArrowForward className="mr-[-6px]"/>
-  <IoIosArrowForward/>
-</span>
-
-           </Link>
-         </li>
-         {/* Add more list items as needed */}
-       </ul>
-       
-       
-        )}
-      </div>
+            <div className="relative">
+              <div className="relative">
+                {" "}
+                {/* This relative position is the anchor for the absolute positioning of the dropdown */}
+                {/* Services link which acts as a dropdown trigger */}
+                <div
+                  onClick={toggleDropdown}
+                  className="flex items-center cursor-pointer"
+                >
+                  <span className="text-white text-lg font-normal font-['Open_Sans'] hover:underline">
+                    Services
+                  </span>
+                  {/* Dropdown Icon */}
+                  <div className="w-4 h-4 ml-1">{/* SVG icon here */}</div>
+                </div>
+                {/* Dropdown Content */}
+                {isDropdownOpen && (
+                  <ul className="absolute left-0 mt-2 w-60 bg-white shadow-lg rounded-md overflow-hidden z-10">
+                    <li>
+                      <Link
+                        to="/care"
+                        className="flex items-center justify-between px-2 py-2 text-sm text-gray-700 hover:text-cyan-700 hover:font-bold"
+                      >
+                        <span>Chiropractic care</span>
+                        <span className="flex items-center">
+                          <IoIosArrowForward className="mr-[-6px]" />
+                          <IoIosArrowForward />
+                        </span>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/spinal"
+                        className="flex items-center justify-between px-2 py-2 text-sm text-gray-700 hover:text-cyan-700 hover:font-bold"
+                      >
+                        <span>Spinal Decompression</span>
+                        <span className="flex items-center">
+                          <IoIosArrowForward className="mr-[-6px]" />
+                          <IoIosArrowForward />
+                        </span>
+                      </Link>
+                    </li>
+                    {/* Add more list items as needed */}
+                  </ul>
+                )}
+              </div>
             </div>
           </div>
           <div className="flex items-center gap-1">
-          <Link to='/service' className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">Service Area</Link>
+          <Link to='/area' className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">Service Area</Link>
             <div className="w-4 h-4 relative">
 
             </div>
           </div>
-          <Link to='/doctor' className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">Dr. Phil</Link>
-          <Link to='/about' className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">About Us</Link>
-          <Link to='/contact' className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">Contact Us</Link>
+          <Link
+            to="/doctor"
+            className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline"
+          >
+            Dr. Phil
+          </Link>
+          <Link
+            to="/about"
+            className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline"
+          >
+            About Us
+          </Link>
+          <Link
+            to="/contact"
+            className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline"
+          >
+            Contact Us
+          </Link>
         </nav>
 
         {/* Mobile Navigation */}
@@ -109,26 +121,34 @@ const Navmenu = () => {
           <div className="lg:hidden absolute  top-20 left-0 right-0 bg-cyan-700">
             <div className="flex flex-col items-center gap-4 pb-3">
               {/* ... (your mobile navigation items) */}
-              <div className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">Home</div>
-              <div className="flex items-center gap-1">
-                <div className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">Services</div>
-                <div className="w-4 h-4 relative">
-
-                </div>
+              <div className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">
+                Home
               </div>
               <div className="flex items-center gap-1">
-                <div className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">Service Area</div>
-                <div className="w-4 h-4 relative">
-
+                <div className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">
+                  Services
                 </div>
+                <div className="w-4 h-4 relative"></div>
               </div>
-              <div className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">Dr. Phil</div>
-              <div className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">About Us</div>
-              <div className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">Contact Us</div>
+              <div className="flex items-center gap-1">
+                <div className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">
+                  Service Area
+                </div>
+                <div className="w-4 h-4 relative"></div>
+              </div>
+              <div className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">
+                Dr. Phil
+              </div>
+              <div className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">
+                About Us
+              </div>
+              <div className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">
+                Contact Us
+              </div>
               <p className="flex items-center text-white lg:text-2xl  font-bold font-['Open Sans'] capitalize leading-[43.20px]">
-            <MdOutlineCall className="text-bold lg:w-10 lg:h-10 lg:text-2xl " />
-            +1 714843-4900
-          </p>
+                <MdOutlineCall className="text-bold lg:w-10 lg:h-10 lg:text-2xl " />
+                +1 714843-4900
+              </p>
             </div>
           </div>
         )}
