@@ -7,11 +7,11 @@ const AddBanner = () => {
   return (
     <div className="mx-auto container w-full my-5 lg:my-[42px] p-4">
       <div className="bg-[#1E6EA3] text-[#FFFFFF] rounded-lg mx-auto overflow-hidden">
-        <div className="grid grid-cols-1 md:grid-cols-5">
-          <div className="md:col-span-2">
+        <div className="grid grid-cols-1 md:grid-cols-12">
+          <div className="md:col-span-6">
             <img className="w-full h-full object-cover" src={addBannerImg} alt="Banner" />
           </div>
-          <div className="md:col-span-3 p-5 flex flex-col justify-between">
+          <div className="md:col-span-6 p-5 flex flex-col justify-between">
             <div>
               <div className="flex items-center mb-10">
                 <img className="w-9 h-9" src={tick} alt="" />

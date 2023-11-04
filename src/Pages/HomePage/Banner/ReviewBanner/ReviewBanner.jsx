@@ -6,7 +6,7 @@ import star from "../../../../assets/banner/star.svg";
 
 const ReviewBanner = () => {
   return (
-    <div className="bg-[#1E6EA3] mx-auto w-full max-w-screen-2xl  lg:h-[729px] mt-[6rem] pb-12 ">
+    <div className="bg-[#1E6EA3] mx-auto w-full   py-12 mt-[6rem] pb-12 ">
       <h1 className="font-sans pt-14 text-center text-white text-4xl lg:text-5xl font-semibold">
         What Our Patients Say
       </h1>
