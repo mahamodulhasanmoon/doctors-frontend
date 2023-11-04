@@ -26,7 +26,7 @@ const ConditionBanner = () => {
                     <div className='  py-16 rounded-lg '>
                         <div className='flex items-center flex-col '>
                             <img className='w-20 h-20' src={img1} alt="" />
-                            <p className='mt-10 px-2 text-[27px] font-semibold text-center'>
+                            <p className='mt-10 px-2 text-black text-[27px] font-semibold text-center'>
                             Neck Adjustment
                             </p>
                         </div>
@@ -34,7 +34,7 @@ const ConditionBanner = () => {
                     <div className='  py-16 rounded-lg '>
                         <div className='flex items-center flex-col '>
                             <img className='w-20 h-20' src={img2} alt="" />
-                            <p className='mt-10 px-2 text-[27px] font-semibold text-center'>
+                            <p className='mt-10 px-2 text-black text-[27px] font-semibold text-center'>
                             Back Adjustment
                             </p>
                         </div>
@@ -42,7 +42,7 @@ const ConditionBanner = () => {
                     <div className='  py-16 rounded-lg '>
                         <div className='flex items-center flex-col '>
                             <img className='w-20 h-20' src={img3} alt="" />
-                            <p className='mt-10 px-2 text-[27px] font-semibold text-center'>
+                            <p className='mt-10 px-2 text-black text-[27px] font-semibold text-center'>
                             Jaw Adjustment
                             </p>
                         </div>
@@ -50,7 +50,7 @@ const ConditionBanner = () => {
                     <div className='  py-16 rounded-lg '>
                         <div className='flex items-center flex-col '>
                             <img className='w-20 h-20' src={img4} alt="" />
-                            <p className='mt-10 px-2 text-[27px] font-semibold text-center'>
+                            <p className='mt-10 px-2 text-black text-[27px] font-semibold text-center'>
                             Postural Support
                             </p>
                         </div>
@@ -58,7 +58,7 @@ const ConditionBanner = () => {
                     <div className='  py-16 rounded-lg '>
                         <div className='flex items-center flex-col '>
                             <img className='w-20 h-20' src={img5} alt="" />
-                            <p className='mt-10 px-2 text-[27px] font-semibold text-center'>
+                            <p className='mt-10 px-2 text-black text-[27px] font-semibold text-center'>
                             Headaches
                             </p>
                         </div>
@@ -66,7 +66,7 @@ const ConditionBanner = () => {
                     <div className='  py-16 rounded-lg '>
                         <div className='flex items-center flex-col '>
                             <img className='w-20 h-20' src={img6} alt="" />
-                            <p className='mt-10 px-2 text-[27px] font-semibold text-center'>
+                            <p className='mt-10 px-2 text-black text-[27px] font-semibold text-center'>
                             Migranes
                             </p>
                         </div>
@@ -74,7 +74,7 @@ const ConditionBanner = () => {
                     <div className='  py-16 rounded-lg '>
                         <div className='flex items-center flex-col '>
                             <img className='w-20 h-20' src={img7} alt="" />
-                            <p className='mt-10 px-2 text-[27px] font-semibold text-center'>
+                            <p className='mt-10 px-2 text-black text-[27px] font-semibold text-center'>
                             Garston technique
                             </p>
                         </div>
@@ -82,7 +82,7 @@ const ConditionBanner = () => {
                     <div className='  py-16 rounded-lg '>
                         <div className='flex items-center flex-col '>
                             <img className='w-20 h-20' src={img8} alt="" />
-                            <p className='mt-10 px-2 text-[27px] font-semibold text-center'>
+                            <p className='mt-10 px-2 text-black text-[27px] font-semibold text-center'>
                             Sciatica
                             </p>
                         </div>
@@ -90,8 +90,8 @@ const ConditionBanner = () => {
                     <div className='  py-16 rounded-lg '>
                         <div className='flex items-center flex-col '>
                             <img className='w-20 h-20' src={img9} alt="" />
-                            <p className='mt-10 px-2 text-[27px] font-semibold text-center'>
-                            Message Therapy
+                            <p className='mt-10 px-2 text-black text-[27px] font-semibold text-center'>
+                            Massage Therapy
                             </p>
                         </div>
                     </div>
@@ -114,7 +114,7 @@ const ConditionBanner = () => {
                     <div className='  py-16 rounded-lg '>
                         <div className='flex items-center flex-col '>
                             <img className='w-20 h-20' src={img10} alt="" />
-                            <p className='mt-10 px-2 text-[27px] font-semibold text-center'>
+                            <p className='mt-10 px-2 text-black text-[27px] font-semibold text-center'>
                             Disc Issues
                             </p>
                         </div>
@@ -122,7 +122,7 @@ const ConditionBanner = () => {
                     <div className='  py-16 rounded-lg '>
                         <div className='flex items-center flex-col '>
                             <img className='w-20 h-20' src={img11} alt="" />
-                            <p className='mt-10 px-2 text-[27px] font-semibold text-center'>
+                            <p className='mt-10 px-2 text-black text-[27px] font-semibold text-center'>
                             Spine Adjustment
                             </p>
                         </div>
@@ -130,7 +130,7 @@ const ConditionBanner = () => {
                     <div className='  py-16 rounded-lg '>
                         <div className='flex items-center flex-col '>
                             <img className='w-20 h-20' src={img12} alt="" />
-                            <p className='mt-10 px-2 text-[27px] font-semibold text-center'>
+                            <p className='mt-10 px-2 text-black text-[27px] font-semibold text-center'>
                             Scoliosis Adjustment
                             </p>
                         </div>
