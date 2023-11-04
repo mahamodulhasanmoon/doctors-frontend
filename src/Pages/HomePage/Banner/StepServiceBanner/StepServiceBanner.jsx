@@ -5,7 +5,7 @@ import enjoy from '../../../../assets/banner/enjoy.svg';
 const StepServiceBanner = () => {
     return (
         <div className="mx-auto container mt-6 md:mt-16">
-            <div className="w-full max-w-[1040px] mx-auto">
+            <div className=" mx-auto">
                 <div className="w-full max-w-[612px] mx-auto">
                     <h1 className="text-center font-sans text-4xl lg:text-5xl md:text-[54px] text-neutral-800 font-semibold">
                         Simple Steps to Get Our Services

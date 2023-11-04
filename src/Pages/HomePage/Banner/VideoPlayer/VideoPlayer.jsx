@@ -33,12 +33,13 @@ const VideoPlayer = () => {
   };
 
   return (
-    <div className="flex justify-center my-12 items-center h-auto lg:h-screen">
-      <div style={{ position: "relative", width: "75%" }}>
+    <div className="container mx-auto my-12 items-center h-auto ">
+      <div style={{ position: "relative",  }}>
         <video
           ref={videoRef}
           width="100%"
           height="auto"
+          loop="true"
           onClick={togglePlayPause}
         >
           <source src={videoUrl} type="video/mp4" />
