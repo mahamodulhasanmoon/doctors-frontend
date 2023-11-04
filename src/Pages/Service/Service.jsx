@@ -56,7 +56,7 @@ const Service = () => {
    
   </div>
 </div>
-<div className="col-span-7  w-full">
+<div className="col-span-7  p-1 w-full">
           <div className="text">
             <span className="text-gray-800 text-xl  font-bold ">
             Dr. Phil Chiropractor

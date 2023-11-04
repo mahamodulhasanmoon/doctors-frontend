@@ -1,26 +1,26 @@
 import { MdOutlineCall } from "react-icons/md";
-// import massageImage from "../../../public/DSC_86951.png";
+import massageImage from "../../../public/li.jpg";
 
 import BookAppointment from "../HomePage/BookAppointment/BookAppointment";
 import Faqs from "../HomePage/Faqs/Faqs";
 const TalkingPage = () => {
   return (
     <div>
-      <div className="mx-auto w-full max-w-screen-2xl bg-[#D5F8FE] ">
-        <div className=" mx-6 lg:mx-28">
-          <div className="py-12 px-8 grid grid-cols-1 gap-3 lg:grid-cols-3 lg:gap-8">
+      <div className=" bg-[#D5F8FE] ">
+        <div className="container mx-auto">
+          <div className="py-12 grid grid-cols-1 gap-3 lg:grid-cols-12 lg:gap-8">
             {/* First Column (Image) */}
-            <div className="col-span-1 bg-[#D5F8FE] rounded-lg">
+            <div className="col-span-3 bg-[#D5F8FE] rounded-lg">
               <img
-                className="mx-auto w-[40rem] lg:w-[35rem] lg:h-[29rem] rounded-xl"
-                // src={massageImage}
+                className="mx-auto  rounded-xl"
+                src={massageImage}
                 alt="Massage"
               />
             </div>
 
             {/* Second Column (Text) */}
-            <div className="col-span-1 bg-[#D5F8FE] rounded-lg p-8">
-              <h1 className="text-neutral-800 text-2xl font-semibold font-['Open Sans'] capitalize leading-10">
+            <div className="col-span-6 bg-[#D5F8FE] rounded-lg mx-auto w-[80%] ">
+              <h1 className="text-neutral-800 my-5 text-2xl font-semibold font-['Open Sans'] capitalize leading-10">
                 Dr. Phill, D.C. (Doctor of Chiropractic)
               </h1>
               <p className="text-neutral-800 text-lg font-normal font-['Open Sans'] leading-8">
@@ -34,8 +34,8 @@ const TalkingPage = () => {
             </div>
 
             {/* Third Column (Contact) */}
-            <div className="col-span-1 bg-[#D5F8FE] rounded-lg p-8">
-              <p className="text-neutral-800 text-2xl font-semibold font-['Open Sans'] capitalize leading-[43.20px]">
+            <div className="col-span-3 bg-[#D5F8FE] rounded-lg p-8">
+              <p className="text-neutral-800  text-2xl font-semibold font-['Open Sans'] capitalize leading-[43.20px]">
                 Want to Talk
               </p>
               <p className="flex items-center text-zinc-600 text-lg font-normal font-['Open Sans'] capitalize leading-[43.20px]">

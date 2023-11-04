@@ -1,4 +1,4 @@
-import { FaMapMarker } from 'react-icons/fa';
+import {  FaArrowAltCircleRight } from 'react-icons/fa';
 
 function LocationList() {
   const locations = [
@@ -33,11 +33,13 @@ function LocationList() {
         {locations.map((location) => (
             <li
                 key={location.id}
-                className="flex lg:min-w-[800px] items-center justify-center  p-3 cursor-pointer hover:shadow-md"
+                className="flex  lg:min-w-[800px] items-center justify-center  p-3 cursor-pointer hover:shadow-md"
                 onClick={() => openGoogleMapsDirections(location)}
             >
-<div className='flex items-center justify-between'>                <span className="text-blue-500 text-xl font-bold">{location.name}</span>
-                <FaMapMarker className="text-gray-600" /></div>
+<div className='flex w-full items-center justify-between'>    
+            <div className="text-blue-500 text-xl font-bold">{location.name}</div>
+                <FaArrowAltCircleRight className="text-gray-600" />
+                </div>
             </li>
         ))}
     </ul>
