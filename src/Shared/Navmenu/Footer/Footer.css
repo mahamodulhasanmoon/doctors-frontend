@@ -1,0 +1,7 @@
+.footer-with-background {
+  /* height: 33rem; */
+  background-image: url('https://i.ibb.co/q1qc90g/image-60.jpg'); /* Adjust the path as per your server setup */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
