@@ -3,11 +3,11 @@ import AppoinmentForm from "./AppoinmentForm";
 
 const BookAppointmentBanner1 = () => {
   return (
-     <div className="mx-auto w-full mt-10 md:mt-[147px]">
+     <div className="mx-auto container w-full mt-10 md:mt-[147px]">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         
         
-        <div className="mr-4 pb-10 md:mr-7 pl-6 md:pl-[130px] pr-4 md:pr-6 bg-[#1E6EA3] text-[#FFFFFF]">
+        <div className=" pb-10 pl-6 bg-[#1E6EA3] text-[#FFFFFF]">
           <div className="mt-8 md:mt-[82px]">
             <h1 className="font-sans text-[48px] font-semibold">
             Enhance Wellness with Chiropractic Care

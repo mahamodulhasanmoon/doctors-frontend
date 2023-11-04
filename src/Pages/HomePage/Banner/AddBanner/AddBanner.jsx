@@ -5,7 +5,7 @@ import location from '../../../../assets/banner/location.svg';
 
 const AddBanner = () => {
   return (
-    <div className="mx-auto w-full my-5 lg:my-[42px] p-4">
+    <div className="mx-auto container w-full my-5 lg:my-[42px] p-4">
       <div className="max-w-screen-xl bg-[#1E6EA3] text-[#FFFFFF] rounded-lg mx-auto overflow-hidden">
         <div className="grid grid-cols-1 md:grid-cols-5">
           <div className="md:col-span-2">

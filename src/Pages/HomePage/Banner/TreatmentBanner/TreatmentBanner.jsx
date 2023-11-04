@@ -4,9 +4,9 @@ import trt3 from '../../../../assets/banner/trt3.png';
 
 const TreatmentBanner = () => {
     return (  
-        <div className="mx-auto w-full max-w-screen-2xl mt-10 sm:mt-16 md:mt-[198px] mb-10 sm:mb-16 md:mb-[126px]">
+        <div className=" container mx-auto mt-10 sm:mt-16 md:mt-[198px] mb-10 sm:mb-16 md:mb-[126px]">
             <div className="rounded-lg mx-auto">
-                <div className=" lg:mx-36   grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 mt-5 sm:mt-10 md:mt-14">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 mt-5 sm:mt-10 md:mt-14">
 
                 <div className='relative'>
     <img className='w-full h-auto md:w-[638px] md:h-[426px] object-cover object-top' src={trt1} alt="" />

@@ -7,7 +7,7 @@ import staff from '../../../../assets/banner/staff.svg'
 
 const AchievementBanner = () => {
     return (
-        <div className="mx-auto w-full max-w-screen-2xl bg-[#1E6EA3] text-[#FFFFFF] h-auto md:h-[729px] mt-[181px] pb-12">
+        <div className="mx-auto container w-full  bg-[#1E6EA3] text-[#FFFFFF] h-auto md:h-[729px] mt-[181px] pb-12">
             <div className="mx-12 px-4  grid grid-cols-1 md:grid-cols-6 gap-4">
                 <div className="col-span-4 items-center mt-8 md:mt-[140px]">
                     {/* This is the left part text */}

@@ -32,7 +32,7 @@ function AppoinmentForm() {
     };
   
     return (
-      <div className="px-12 lg:px-2 mr-[130px]">
+      <div className="">
         <div className="text-start">
           <h1 className="text-black text-[48px] font-semibold">
             Book your Appointment
