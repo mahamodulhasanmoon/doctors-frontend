@@ -10,10 +10,15 @@ export default  function AppoinmentForm2() {
       console.log(data); 
 
       const emailData = {
-        to:data.email,
-        subject:data.subject,
-        text:'Hello World'
-      }
+        email: data.email, 
+        name: data.name, 
+        phone: data.phone,
+        department: data.department,
+        doctor: data.doctor,
+        date: data.date,
+        message: data.message,
+      };
+      console.log(emailData);
 
       emailjs
       .send(
