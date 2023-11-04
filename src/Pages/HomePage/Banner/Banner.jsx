@@ -38,15 +38,15 @@ const Banner = () => {
 
   </div>
 
-  <div className="col-span-1 lg:pr-24 md:col-span-2 flex justify-center items-center">
-    <div className="  md:w-[400px] bg-cyan-700 shadow-lg p-6 rounded-lg text-center">
+  <div className="col-span-1 lg:mt-12 lg:pr-24 md:col-span-2 flex justify-center items-center">
+    <div className="  md:w-[340px] bg-cyan-700 shadow-lg p-6 rounded-lg text-center">
       <div>
         <h1 className="text-xl md:text-2xl font-semibold text-white mb-4">Need Relief?</h1>
-        <p className="text-sm md:text-base text-white mb-4">Reserve your free new patient consultation by booking online today!</p>
+        <p className="text-xl font-semibold text-white mb-4">Reserve your free new patient consultation by booking online today!</p>
         <span className="text-xs md:text-sm text-white mb-4">Begin with a free initial consultation for new patients (clinical history) with the chiropractor to determine if we can provide assistance. If not, we will guide you to someone who can.</span>
       </div>
       <div className="flex justify-center mt-6">
-        <button className="w-[200px] h-[40px] bg-amber-300 rounded-lg text-black text-base font-bold font-sans hover:bg-amber-400">
+        <button className="w-[200px] h-[55px] bg-amber-300 rounded-lg text-black text-base font-bold font-sans hover:bg-amber-400">
           Book Appointment Now
         </button>
       </div>
