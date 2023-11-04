@@ -1,6 +1,7 @@
 import massageImage from "../../../public/image 58.jpg";
 import massageImage2 from "../../../public/image 59.jpg";
 import Faqs from "../HomePage/Faqs/Faqs";
+import LocationArea from "./LocationArea";
 
 const Service = () => {
   return (
@@ -71,6 +72,7 @@ const Service = () => {
 </div>
         </div>
       </div>
+      <LocationArea/>
       <Faqs></Faqs>
     </div>
   );
