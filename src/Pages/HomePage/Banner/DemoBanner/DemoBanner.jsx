@@ -1,4 +1,4 @@
-import demoBanner from "../../../../assets/banner/DSC_8695 1.png";
+import demoBanner from "../../../../assets/banner/DSC_86951.png";
 import demo2 from "../../../../assets/banner/demo2.svg";
 import demo3 from "../../../../assets/banner/demo3.svg";
 import demo4 from "../../../../assets/banner/demo4.svg";

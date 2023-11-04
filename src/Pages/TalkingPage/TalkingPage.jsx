@@ -1,5 +1,5 @@
 import { MdOutlineCall } from "react-icons/md";
-import massageImage from "../../../public/DSC_8695 1.jpg";
+// import massageImage from "../../../public/DSC_86951.png";
 
 import BookAppointment from "../HomePage/BookAppointment/BookAppointment";
 import Faqs from "../HomePage/Faqs/Faqs";
@@ -13,7 +13,7 @@ const TalkingPage = () => {
             <div className="col-span-1 bg-[#D5F8FE] rounded-lg">
               <img
                 className="mx-auto w-[40rem] lg:w-[35rem] lg:h-[29rem] rounded-xl"
-                src={massageImage}
+                // src={massageImage}
                 alt="Massage"
               />
             </div>
