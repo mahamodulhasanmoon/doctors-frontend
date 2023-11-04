@@ -2,7 +2,7 @@ import AppoinmentForm2 from "../Banner/BookAppointmentBanner/BookAppoinmentForm2
 
 const BookAppointment = () => {
   return (
-    <div className="mx-auto w-full max-w-screen-2xl">
+    <div className="mx-auto container">
 
 
       <div className="grid lg:grid-cols-2 -ml-24  my-12 gap-8 lg:mx-36   ">

@@ -5,7 +5,7 @@ import Faqs from "../HomePage/Faqs/Faqs";
 
 const Spinal = () => {
     return (
-        <div className="mx-auto w-full max-w-screen-2xl">
+        <div className="mx-auto">
         <div className="bg-[#D5F8FE] text-center pb-24 pt-12">
           <div className="self-stretch  h-[141px] flex-col justify-start items-center gap-6 inline-flex">
             <h1 className="text-center text-neutral-800 text-[3.3rem] font-bold font-['Open Sans'] leading-[64.80px]">
@@ -20,7 +20,8 @@ const Spinal = () => {
             </p>
           </div>
         </div>
-        <div className="my-12 text-center">
+<div className="container mx-auto">
+<div className="my-12 text-center">
         <h1 className="text-center text-neutral-800 text-[3.3rem] font-bold font-['Open Sans'] leading-[64.80px]">
         Spinal Decompression 
           <br /> Condition We Can Handle 
@@ -32,7 +33,7 @@ const Spinal = () => {
       </div>
 
 
-      <div className="mx-24">
+      <div >
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3  ">
           <>
             <a className="block rounded-xl  bg-[#1E6EA3] p-8  " href="">
@@ -126,6 +127,7 @@ const Spinal = () => {
         </div>
         </div>
         <Faqs></Faqs>
+</div>
         </div>
     );
 };

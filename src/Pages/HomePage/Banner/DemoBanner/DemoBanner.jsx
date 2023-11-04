@@ -5,7 +5,7 @@ import demo4 from "../../../../assets/banner/demo4.svg";
 // import arrow from "../../../../assets/banner/arrow.svg";
 const DemoBanner = () => {
   return (
-    <div className="mx-auto w-full max-w-screen-2xl  lg:h-[729px] mt-[6rem] pb-12 mb-[200px]">
+    <div className="mx-auto container  my-[6rem] pb-12 ">
       <div className=" mx-6 lg:mx-18 rounded-lg  ">
         <div className="">
           <h1 className="font-sans text-4xl text-neutral-800 lg:text-5xl text-center md:text-[54px] font-semibold">
@@ -20,11 +20,11 @@ const DemoBanner = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-6 items-center mt-14">
-          <div className=" lg:ml-24  col-span-3 lg:col-span-2  items-center">
-            <img className="w-[661px]  rounded-lg" src={demoBanner} alt="" />
+        <div className="grid lg:grid-cols-6 items-center mt-14 gap-14">
+          <div className="  col-span-3 lg:col-span-2  items-center">
+            <img className=" rounded-lg" src={demoBanner} alt="" />
           </div>
-          <div className=" col-span-2 lg:col-span-4 items-center lg:mx-0 mr-0  lg:mr-48 lg:ml-24">
+          <div className=" col-span-2 lg:col-span-4 items-center ">
             <div className="flex items-start my-16">
               <img className="w-20 h-20" src={demo2} alt="" />
               <div className="-mt-1.5 ml-6">

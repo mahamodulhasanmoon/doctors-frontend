@@ -91,7 +91,7 @@ const Navmenu = () => {
             </div>
           </div>
           <div className="flex items-center gap-1">
-          <Link to='/area' className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">Service Area</Link>
+          <Link to='/service' className="text-white text-lg font-normal font-['Open Sans'] cursor-pointer hover:underline">Service Area</Link>
             <div className="w-4 h-4 relative">
 
             </div>
