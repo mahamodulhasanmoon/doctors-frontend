@@ -6,8 +6,9 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
-      <footer className=" h-[55rem] lg:h-[33rem] mx-auto w-full max-w-screen-2xl footer-with-background">
-        <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
+      <footer className=" h-[55rem] lg:h-[33rem] mx-auto w-full max-w-screen footer-with-background">
+<div className="container mx-auto">
+<div className="mx-auto  px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
           <div className="grid grid-cols-12  lg:gap-8 items-center lg:items-start">
             <div className="col-span-6 lg:-mt-4 lg:col-span-4 ">
               <div>
@@ -311,6 +312,7 @@ const Footer = () => {
       </p>
     </div>
         </div>
+</div>
       </footer>
     </div>
   );
